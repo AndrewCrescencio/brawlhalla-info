@@ -155,7 +155,7 @@ bun run preview
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[product-screenshot]: /src/public/images/preview.png
+[product-screenshot]: /app/public/images/preview.png
 [Nuxt.js]: https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82
 [Nuxt-url]: https://nuxt.com/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D

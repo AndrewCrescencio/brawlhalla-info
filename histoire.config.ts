@@ -4,5 +4,5 @@ import { HstNuxt } from '@histoire/plugin-nuxt'
 
 export default defineConfig({
   plugins: [HstVue(), HstNuxt()],
-  setupFile: '/src/styles/styles.scss',
+  setupFile: '/app/styles/styles.scss',
 })

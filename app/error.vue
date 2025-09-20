@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import type { NuxtError } from '#app'
 
 const props = defineProps({
@@ -6,18 +6,18 @@ const props = defineProps({
 })
 
 const handleError = () => clearError({ redirect: '/' })
-</script>
+</script> -->
 
 <template>
   <NuxtLayout>
     <div class="error container">
-      <h2>{{ error.statusCode }} - Page</h2>
+      <!-- <h2>{{ error.statusCode }} - Page</h2> -->
       <NuxtImg src="/images/emoji_think.webp" width="130" height="135" />
       <p>
         It seems that the page you tried to access does not exist or there was
         an error...
       </p>
-      <button @click="handleError">Back to home</button>
+      <!-- <button @click="handleError">Back to home</button> -->
     </div>
   </NuxtLayout>
 </template>

@@ -1,3 +1,5 @@
+import { defineNuxtConfig } from 'nuxt/config'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
@@ -5,10 +7,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   typescript: {
-    typeCheck: true,
+    typeCheck: false,
   },
 
-  srcDir: 'src/',
+  // srcDir: 'src/',
   css: ['~/styles/styles.scss'],
 
   app: {

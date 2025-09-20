@@ -13,21 +13,21 @@
     "story:preview": "histoire preview"
   },
   "dependencies": {
-    "@nuxt/image": "^1.8.1",
-    "@picocss/pico": "^2.0.6",
-    "nuxt": "^3.14.1592",
+    "@nuxt/image": "^1.11.0",
+    "@picocss/pico": "^2.1.1",
+    "nuxt": "^4.1.2",
     "vue": "latest"
   },
   "devDependencies": {
-    "@histoire/plugin-nuxt": "^0.17.17",
-    "@histoire/plugin-vue": "^0.17.17",
-    "@types/node": "^22.9.1",
-    "eslint": "^9.15.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-vue": "^9.31.0",
-    "histoire": "^0.17.17",
-    "sass": "^1.81.0",
-    "vue-tsc": "2.0.29",
-    "typescript": "5.6.2"
+    "@histoire/plugin-nuxt": "1.0.0-alpha.3",
+    "@histoire/plugin-vue": "1.0.0-alpha.3",
+    "@types/node": "^24.5.2",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.4.0",
+    "histoire": "1.0.0-alpha.3",
+    "sass": "^1.93.0",
+    "typescript": "5.9.2",
+    "vue-tsc": "3.0.7"
   }
 }
